@@ -1,4 +1,5 @@
 ![](https://img.shields.io/badge/Build%20with%20%E2%9D%A4%EF%B8%8F-at%20Technologiesitftung%20Berlin-blue)
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -26,6 +27,14 @@ How to:
   ]
 }
 ```
+
+Bonus:
+
+Use all-contributors
+
+npx all-contributors-cli check
+npx all-contributors-cli add ff6347 doc
+
 
 Get fancy shields at https://shields.io
  -->
