@@ -1,4 +1,4 @@
-name: Lint
+name: Say something
 
 on:
   push:
@@ -14,6 +14,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Npm lint script
-        run: |
-          npm run build
-          npm run lint
+        run: echo "Say something"
