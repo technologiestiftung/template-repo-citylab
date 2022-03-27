@@ -54,7 +54,7 @@ Add your project description here
 
 ## Installation
 
-## Usage
+## Usage or Deplyment
 
 ## Development
 
@@ -84,7 +84,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 ## Content Licencing
 
-Texts and content available as [CC BY](https://creativecommons.org/licenses/by/3.0/de/). 
+Texts and content available as [CC BY](https://creativecommons.org/licenses/by/3.0/de/).
 
 Illustrations by Maria Musterfrau, all rights reserved.
 
