@@ -54,7 +54,7 @@ Add your project description here
 
 ## Installation
 
-## Usage or Deplyment
+## Usage or Deployment
 
 ## Development
 
