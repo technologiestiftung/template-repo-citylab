@@ -95,21 +95,21 @@ Illustrations by Maria Musterfrau, all rights reserved.
 <table>
   <tr>
     <td>
-      Made by <a src="https://citylab-berlin.org/de/start/">
+      Made by <a href="https://citylab-berlin.org/de/start/">
         <br />
         <br />
         <img width="200" src="https://citylab-berlin.org/wp-content/uploads/2021/05/citylab-logo.svg" />
       </a>
     </td>
     <td>
-      A project by <a src="https://www.technologiestiftung-berlin.de/">
+      A project by <a href="https://www.technologiestiftung-berlin.de/">
         <br />
         <br />
         <img width="150" src="https://citylab-berlin.org/wp-content/uploads/2021/05/tsb.svg" />
       </a>
     </td>
     <td>
-      Supported by <a src="https://www.berlin.de/rbmskzl/">
+      Supported by <a href="https://www.berlin.de/rbmskzl/">
         <br />
         <br />
         <img width="80" src="https://citylab-berlin.org/wp-content/uploads/2021/12/B_RBmin_Skzl_Logo_DE_V_PT_RGB-300x200.png" />
