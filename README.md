@@ -60,6 +60,8 @@ Add your project description here
 
 ## Contributing
 
+Before you create a pull request, write an issue so we can discuss your changes.
+
 ## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
