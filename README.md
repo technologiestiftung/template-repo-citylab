@@ -1,62 +1,65 @@
 ![](https://img.shields.io/badge/Built%20with%20%E2%9D%A4%EF%B8%8F-at%20Technologiestiftung%20Berlin-blue)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # {repo-template}
 
-<!--
+## TODO (after you generated the repo)
 
-How to:
-
-- You dont need to use every section. Only the ones that apply to your project.
-- Adjust the files on .github/ISSUE_TEMPLATE/* how you need them
-- Adjust the file on .github/CODEOWNERS to match your team
-- If you use staging and main branches use this template for .github/renovate.json
-
+- [ ] Review the content of the README.md and adjust to your liking
+- [ ] Read the README.md till the end and adjust the content licensing,
+      logos, etc (I know you stopped at tbd...)
+- [ ] Adjust the file [.github/CODEOWNERS](./.github/CODEOWNERS)
+- [ ] Adjust the files under [.github/ISSUE_TEMPLATE](./.github/ISSUE_TEMPLATE)
+- [ ] If you use staging and main branches use this template for [.github/renovate.json](./.github/renovate.json)
 
 ```json
 {
-   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "@inpyjamas"
-  ],
-    "baseBranches": [
-    "staging"
-  ]
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": ["github>technologiestiftung/renovate-config"],
+	"baseBranches": ["staging"]
 }
 ```
 
-Bonus:
+- [ ] Do you want to honor all kinds of contributions? Use [all-contributors](https://allcontributors.org/)
 
-Use all-contributors
-
+```bash
 npx all-contributors-cli check
 npx all-contributors-cli add ff6347 doc
-
-You can use it on GitHub just by commeting on PRs and issues:
-
 ```
+
+You can use it on GitHub just by commenting on PRs and issues:
+
+```plain
 @all-contributors please add @ff6347 for infrastructure, tests and code
 ```
-Read more here https://allcontributors.org/
 
-
-Get fancy shields at https://shields.io
- -->
-
-Add your project description here
+- [ ] Add your project description
+- [ ] Get fancy shields at https://shields.io
 
 ## Prerequisites
 
+tbd...
+
 ## Installation
+
+tbd...
 
 ## Usage or Deployment
 
+tbd...
+
 ## Development
 
+tbd...
+
 ## Tests
+
+tbd...
 
 ## Contributing
 
@@ -71,9 +74,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://fabianmoronzirfas.me/"><img src="https://avatars.githubusercontent.com/u/315106?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Fabian Morón Zirfas</b></sub></a><br /><a href="https://github.com/technologiestiftung/template-default/commits?author=ff6347" title="Documentation">📖</a></td>
-    <td align="center"><a href="http://vogelino.com"><img src="https://avatars.githubusercontent.com/u/2759340?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Lucas Vogel</b></sub></a><br /><a href="https://github.com/technologiestiftung/template-default/commits?author=vogelino" title="Documentation">📖</a> <a href="#ideas-vogelino" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/technologiestiftung/template-default/pulls?q=is%3Apr+reviewed-by%3Avogelino" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/technologiestiftung/template-default/commits?author=vogelino" title="Code">💻</a></td>
-    <td align="center"><a href="http://www.awsm.de"><img src="https://avatars.githubusercontent.com/u/434355?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Ingo Hinterding</b></sub></a><br /><a href="https://github.com/technologiestiftung/template-default/commits?author=Esshahn" title="Documentation">📖</a></td>
   </tr>
 </table>
 
@@ -88,7 +88,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 Texts and content available as [CC BY](https://creativecommons.org/licenses/by/3.0/de/).
 
-Illustrations by Maria Musterfrau, all rights reserved.
+Illustrations by {MARIA_MUSTERFRAU}, all rights reserved.
 
 ## Credits
 
