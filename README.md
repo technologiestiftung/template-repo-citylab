@@ -11,8 +11,8 @@
 ## TODO (after you generated the repo)
 
 - [ ] Review the content of the README.md and adjust to your liking
-- [ ] Read the README.md till the and and also adjust the content licensing and
-      logos (I know you stopped at tbd...)
+- [ ] Read the README.md till the end and adjust the content licensing,
+      logos, etc (I know you stopped at tbd...)
 - [ ] Adjust the file [.github/CODEOWNERS](./.github/CODEOWNERS)
 - [ ] Adjust the files under [.github/ISSUE_TEMPLATE](./.github/ISSUE_TEMPLATE)
 - [ ] If you use staging and main branches use this template for [.github/renovate.json](./.github/renovate.json)
