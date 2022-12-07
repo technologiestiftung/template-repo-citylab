@@ -88,7 +88,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 Texts and content available as [CC BY](https://creativecommons.org/licenses/by/3.0/de/).
 
-Illustrations by Maria Musterfrau, all rights reserved.
+Illustrations by {MARIA_MUSTERFRAU}, all rights reserved.
 
 ## Credits
 
