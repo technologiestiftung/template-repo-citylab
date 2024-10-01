@@ -15,6 +15,7 @@
       logos, etc (I know you stopped at tbd...)
 - [ ] Adjust the file [.github/CODEOWNERS](./.github/CODEOWNERS)
 - [ ] Adjust the files under [.github/ISSUE_TEMPLATE](./.github/ISSUE_TEMPLATE)
+- [ ] If you need renovate, enable it in the file [.github/renovate.json](./.github/renovate.json)
 - [ ] If you use staging and main branches use this template for [.github/renovate.json](./.github/renovate.json)
 
 ```json
@@ -98,21 +99,21 @@ Illustrations by {MARIA_MUSTERFRAU}, all rights reserved.
       Made by <a href="https://citylab-berlin.org/de/start/">
         <br />
         <br />
-        <img width="200" src="https://logos.citylab-berlin.org/logo-citylab-berlin.svg" />
+        <img width="200" src="https://logos.citylab-berlin.org/logo-citylab-color.svg" alt="Link to the CityLAB Berlin website" />
       </a>
     </td>
     <td>
       A project by <a href="https://www.technologiestiftung-berlin.de/">
         <br />
         <br />
-        <img width="150" src="https://logos.citylab-berlin.org/logo-technologiestiftung-berlin-de.svg" />
+        <img width="150" src="https://logos.citylab-berlin.org/logo-technologiestiftung-berlin-de.svg" alt="Link to the Technologiestiftung Berlin website" />
       </a>
     </td>
     <td>
       Supported by <a href="https://www.berlin.de/rbmskzl/">
         <br />
         <br />
-        <img width="80" src="https://logos.citylab-berlin.org/logo-berlin-senatskanzelei-de.svg" />
+        <img width="80" src="https://logos.citylab-berlin.org/logo-berlin-senatskanzelei-de.svg" alt="Link to the Senate Chancellery of Berlin"/>
       </a>
     </td>
   </tr>
