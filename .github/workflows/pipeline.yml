@@ -1,0 +1,83 @@
+name: Build, Prettier, Lint, Test
+permissions:
+  contents: write
+  packages: write
+on:
+  push:
+    branches: [main, staging]
+  pull_request:
+    branches: [main, staging]
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code ⬇️
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js using .nvmrc ⚙️
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          cache: npm
+
+      - name: Cache npm dependencies 💾
+        id: cache-npm-deps
+        uses: actions/cache@v4
+        with:
+          path: |
+            **/node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies 📦
+        if: steps.cache-npm-deps.outputs.cache-hit != 'true'
+        run: npm ci
+
+      - name: Check Build 🏗️
+        run: npm run build
+
+      - name: Check Prettier 🧹
+        run: npm run prettier:ci
+
+      - name: Check Lint 🔎
+        run: npm run lint
+
+      # Add the following lines if you need them in your project
+
+#      - name: Run Unit Tests 🧪
+#        run: npm run test:unit
+#
+#      - name: Install Playwright Browsers 🧭
+#        run: npx playwright install --with-deps
+#
+#      - name: Run E2E test 🎭
+#        run: npm run test:e2e
+#
+#      - name: Upload E2E test results ⬆️
+#        uses: actions/upload-artifact@v4
+#        if: ${{ failure() && !cancelled() }}
+#        with:
+#          name: playwright-e2e-test-results
+#          path: tests/e2e/test-results
+#          retention-days: 30
+#
+#      - name: Run A11y tests ♿️
+#        run: npm run test:a11y
+#        env:
+#          # Use a different port (from the one used with E2E tests) to workaround problem in CI/GitHub Actions,
+#          # starting to occur with playwright/test 1.28.0:
+#          # Error: http://localhost:4173 is already used ...
+#          VITE_PORT: 4174
+#
+#      - name: Upload A11y test results ⬆️
+#        uses: actions/upload-artifact@v4
+#        if: ${{ failure() && !cancelled() }}
+#        with:
+#          name: playwright-a11y-test-results
+#          path: tests/a11y/test-results
+#
+#      - name: Create a release 🚢
+#        run: npx semantic-release --ci
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
