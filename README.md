@@ -6,7 +6,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-# {repo-template}
+# {frontend-template}
 
 ## TODO (after you generated the repo)
 
@@ -15,6 +15,7 @@
       logos, etc (I know you stopped at tbd...)
 - [ ] Adjust the file [.github/CODEOWNERS](./.github/CODEOWNERS)
 - [ ] Adjust the files under [.github/ISSUE_TEMPLATE](./.github/ISSUE_TEMPLATE)
+- [ ] If you need unit, 2e2, a11y tests, or releases, you can enable them in this file: [pipeline.yml](.github%2Fworkflows%2Fpipeline.yml)
 - [ ] If you need renovate, enable it in the file [.github/renovate.json](./.github/renovate.json)
 - [ ] If you use staging and main branches use this template for [.github/renovate.json](./.github/renovate.json)
 
