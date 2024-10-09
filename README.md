@@ -15,7 +15,7 @@
       logos, etc (I know you stopped at tbd...)
 - [ ] Adjust the file [.github/CODEOWNERS](./.github/CODEOWNERS)
 - [ ] Adjust the files under [.github/ISSUE_TEMPLATE](./.github/ISSUE_TEMPLATE)
-- [ ] If you need renovate, enable it in the file [.github/renovate.json](./.github/renovate.json)
+- [ ] If you need renovate, enable it for your repository in the renovate app in the settings of your organisation
 - [ ] If you use staging and main branches use this template for [.github/renovate.json](./.github/renovate.json)
 
 ```json
