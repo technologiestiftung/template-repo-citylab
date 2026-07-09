@@ -99,7 +99,7 @@ Illustrations by {MARIA_MUSTERFRAU}, all rights reserved.
       Made by <a href="https://citylab-berlin.org/de/start/">
         <br />
         <br />
-        <img width="200" src="https://logos.citylab-berlin.org/logo-citylab-color.svg" alt="Link to the CityLAB Berlin website" />
+        <img width="140" src="https://logos.citylab-berlin.org/logo-citylab-color.svg" alt="Link to the CityLAB Berlin website" />
       </a>
     </td>
     <td>
